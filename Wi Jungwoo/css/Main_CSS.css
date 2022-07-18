@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: default;
+}
+
+
+.content{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: default;
+}
+
+
+
+.logo h2{
+    margin-left: 30px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 4em;
+    text-align: justify;
+    color: white;
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+
+.content h4{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    color: white;
+    z-index: 3;
+    mix-blend-mode: overlay;
+}
+
+.li {
+    line-height:50%
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
